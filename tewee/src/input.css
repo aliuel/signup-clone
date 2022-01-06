@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .grid-field {
+    @apply border-t-[1px] border-l-[1px] border-r-[1px] uppercase p-2 pl-3 focus:outline-none tracking-wide;
+  }
+
+  .canvas {
+    @apply uppercase h-screen bg-blue flex justify-center items-center;
+  }
+
+  .form-wrapper {
+    @apply flex flex-col max-w-[430px] w-[90%];
+  }
+}
